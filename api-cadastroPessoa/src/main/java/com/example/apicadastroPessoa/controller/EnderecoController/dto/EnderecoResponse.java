@@ -1,14 +1,14 @@
-package com.example.apicadastroPessoa.entity.endereco.dto;
+package com.example.apicadastroPessoa.controller.EnderecoController.dto;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class EnderecoDTO {
+public class EnderecoResponse {
     private Long id;
     private String logradouro;
-    private Integer cep;
+    private String cep;
     private Integer numero;
     private String cidade;
     private String estado;
